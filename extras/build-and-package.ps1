@@ -162,9 +162,9 @@ function Set-FileSignature {
 }
 
 $publishOutputPath = "$solutionDir\src\nonsense.WPF\bin\Release\net9.0-windows"
-$innoSetupScript = "$scriptRoot\nonsense.Installer.iss"
+$innoSetupScript = "$scriptRoot\nonsense.iss"
 $dotNetRuntimePath = "$scriptRoot\prerequisites\windowsdesktop-runtime-9.0.10-win-x64.exe"
-$tempInnoScript = "$env:TEMP\nonsense.Installer.temp.iss"
+$tempInnoScript = "$env:TEMP\nonsense.temp.iss"
 
 # Declare certificate variable at script scope so it's accessible throughout
 $certificate = $null
