@@ -937,8 +937,8 @@
             "InputType": 0
           },
           {
-            "Id": "gaming-memory-compression",
-            "Name": "Memory Compression",
+            "Id": "gaming-o9-compression",
+            "Name": "o9 Compression",
             "IsSelected": true,
             "InputType": 0
           },

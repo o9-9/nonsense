@@ -24,7 +24,7 @@ irm "https://get.o9ll.com" | iex
 [![Download from o9ll.com](https://img.shields.io/badge/Download-o9ll.com-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://o9ll.com)
 [![Download from GitHub Releases](https://img.shields.io/badge/Download-GitHub%20Releases-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/o9-9/nonsense/releases)
 
-The `nonsense.Installer.exe` includes both Installable and Portable versions during setup.
+The `nonsense.exe` includes both Installable and Portable versions during setup.
 
 > [!NOTE]
 > This tool is currently in development. Any issues can be reported using the Issues tab.<br>
@@ -34,8 +34,8 @@ The `nonsense.Installer.exe` includes both Installable and Portable versions dur
 ## Support the developer
 
 It really does make a big difference, and is very much appreciated. Thanks<br>
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/o9-9)
-[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/memstech)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/o99)
+[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/shno5)
 
 ## Current Features 🛠️
 

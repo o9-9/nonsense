@@ -116,7 +116,7 @@
                                                 <Run FontSize="12"
                                                      FontStyle="Italic"
                                                      Foreground="Gray"
-                                                     Text="by Memory"/>
+                                                     Text="by o9"/>
                                         </TextBlock>
                                 </DockPanel>
 

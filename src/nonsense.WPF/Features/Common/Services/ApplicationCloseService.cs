@@ -106,7 +106,7 @@ namespace nonsense.WPF.Features.Common.Services
                         {
                             var psi = new ProcessStartInfo
                             {
-                                FileName = "https://ko-fi.com/o9-9",
+                                FileName = "https://ko-fi.com/o99",
                                 UseShellExecute = true,
                             };
                             Process.Start(psi);

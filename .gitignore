@@ -1,6 +1,7 @@
 # Custom project folders to ignore
 extras/prerequisites/
 installer-output/
+nonsense-installer/
 .config/
 
 # User-specific files

@@ -14,66 +14,66 @@
     -->
     
     <!-- Dark Theme Colors -->
-    <Color x:Key="DarkPrimaryTextColor">#FFFFFF</Color>
-    <Color x:Key="DarkSecondaryTextColor">#AAAAAA</Color>
+    <Color x:Key="DarkPrimaryTextColor">#EAEAEA</Color>
+    <Color x:Key="DarkSecondaryTextColor">#CCCCCC</Color>
     <Color x:Key="DarkTertiaryTextColor">#808080</Color>
-    <Color x:Key="DarkHelpIconColor">#FFFFFF</Color>
-    <Color x:Key="DarkTooltipBackgroundColor">#2B2D30</Color>
-    <Color x:Key="DarkTooltipForegroundColor">#FFFFFF</Color>
-    <Color x:Key="DarkTooltipBorderColor">#FFDE00</Color>
-    <Color x:Key="DarkControlForegroundColor">#FFFFFF</Color>
-    <Color x:Key="DarkControlFillColor">#FFFFFF</Color>
-    <Color x:Key="DarkControlBorderColor">#FFDE00</Color>
-    <Color x:Key="DarkToggleKnobColor">#FFFFFF</Color>
-    <Color x:Key="DarkToggleKnobCheckedColor">#FFDE00</Color>
-    <Color x:Key="DarkContentSectionBorderColor">#1F2022</Color>
-    <Color x:Key="DarkMainContainerBorderColor">#2B2D30</Color>
-    <Color x:Key="DarkPrimaryButtonForegroundColor">#FFFFFF</Color>
-    <Color x:Key="DarkAccentColor">#FFDE00</Color>
-    <Color x:Key="DarkButtonHoverTextColor">#202124</Color>
+    <Color x:Key="DarkHelpIconColor">#EAEAEA</Color>
+    <Color x:Key="DarkTooltipBackgroundColor">#3C3C41</Color>
+    <Color x:Key="DarkTooltipForegroundColor">#EAEAEA</Color>
+    <Color x:Key="DarkTooltipBorderColor">#38A2C5</Color>
+    <Color x:Key="DarkControlForegroundColor">#EAEAEA</Color>
+    <Color x:Key="DarkControlFillColor">#EAEAEA</Color>
+    <Color x:Key="DarkControlBorderColor">#38A2C5</Color>
+    <Color x:Key="DarkToggleKnobColor">#CECECE</Color>
+    <Color x:Key="DarkToggleKnobCheckedColor">#000000</Color>
+    <Color x:Key="DarkContentSectionBorderColor">#3C3C41</Color>
+    <Color x:Key="DarkMainContainerBorderColor">#3C3C41</Color>
+    <Color x:Key="DarkPrimaryButtonForegroundColor">#EAEAEA</Color>
+    <Color x:Key="DarkAccentColor">#38A2C5</Color>
+    <Color x:Key="DarkButtonHoverTextColor">#EAEAEA</Color>
     <Color x:Key="DarkButtonDisabledForegroundColor">#99A3A4</Color>
-    <Color x:Key="DarkButtonDisabledBorderColor">#2B2D30</Color>
-    <Color x:Key="DarkNavigationButtonBackgroundColor">#1F2022</Color>
-    <Color x:Key="DarkNavigationButtonForegroundColor">#FFFFFF</Color>
-    <Color x:Key="DarkSliderTrackColor">#404040</Color>
-    <Color x:Key="DarkBackgroundColor">#202020</Color>
-    <Color x:Key="DarkContentSectionBackgroundColor">#1F2022</Color>
-    <Color x:Key="DarkElevatedBackgroundColor">#3C3C3C</Color>
+    <Color x:Key="DarkButtonDisabledBorderColor">#3C3C41</Color>
+    <Color x:Key="DarkNavigationButtonBackgroundColor">#3C3C41</Color>
+    <Color x:Key="DarkNavigationButtonForegroundColor">#EAEAEA</Color>
+    <Color x:Key="DarkSliderTrackColor">#3C3C41</Color>
+    <Color x:Key="DarkBackgroundColor">#3C3C41</Color>
+    <Color x:Key="DarkContentSectionBackgroundColor">#3C3C41</Color>
+    <Color x:Key="DarkElevatedBackgroundColor">#3C3C41</Color>
     <!-- Dark Theme ScrollBar Colors -->
-    <Color x:Key="DarkScrollBarThumbColor">#FFDE00</Color>
-    <Color x:Key="DarkScrollBarThumbHoverColor">#FFE94C</Color>
-    <Color x:Key="DarkScrollBarThumbPressedColor">#FFF066</Color>
+    <Color x:Key="DarkScrollBarThumbColor">#A0A0A0</Color>
+    <Color x:Key="DarkScrollBarThumbHoverColor">#B0B0B0</Color>
+    <Color x:Key="DarkScrollBarThumbPressedColor">#C0C0C0</Color>
 
     <!-- Light Theme Colors -->
-    <Color x:Key="LightPrimaryTextColor">#202124</Color>
-    <Color x:Key="LightSecondaryTextColor">#666666</Color>
+    <Color x:Key="LightPrimaryTextColor">#000000</Color>
+    <Color x:Key="LightSecondaryTextColor">#555555</Color>
     <Color x:Key="LightTertiaryTextColor">#999999</Color>
-    <Color x:Key="LightHelpIconColor">#202124</Color>
-    <Color x:Key="LightTooltipBackgroundColor">#FBFBFB</Color>
-    <Color x:Key="LightTooltipForegroundColor">#202124</Color>
-    <Color x:Key="LightTooltipBorderColor">#424242</Color>
-    <Color x:Key="LightControlForegroundColor">#202124</Color>
-    <Color x:Key="LightControlFillColor">#424242</Color>
-    <Color x:Key="LightControlBorderColor">#424242</Color>
-    <Color x:Key="LightToggleKnobColor">#FBFBFB</Color>
-    <Color x:Key="LightToggleKnobCheckedColor">#424242</Color>
-    <Color x:Key="LightContentSectionBorderColor">#F3F3F3</Color>
-    <Color x:Key="LightMainContainerBorderColor">#FBFBFB</Color>
-    <Color x:Key="LightPrimaryButtonForegroundColor">#202124</Color>
-    <Color x:Key="LightAccentColor">#424242</Color>
-    <Color x:Key="LightButtonHoverTextColor">#FBFBFB</Color>
+    <Color x:Key="LightHelpIconColor">#000000</Color>
+    <Color x:Key="LightTooltipBackgroundColor">#EAEAEA</Color>
+    <Color x:Key="LightTooltipForegroundColor">#000000</Color>
+    <Color x:Key="LightTooltipBorderColor">#38A2C5</Color>
+    <Color x:Key="LightControlForegroundColor">#000000</Color>
+    <Color x:Key="LightControlFillColor">#000000</Color>
+    <Color x:Key="LightControlBorderColor">#38A2C5</Color>
+    <Color x:Key="LightToggleKnobColor">#5D5D5D</Color>
+    <Color x:Key="LightToggleKnobCheckedColor">#EAEAEA</Color>
+    <Color x:Key="LightContentSectionBorderColor">#EAEAEA</Color>
+    <Color x:Key="LightMainContainerBorderColor">#EAEAEA</Color>
+    <Color x:Key="LightPrimaryButtonForegroundColor">#000000</Color>
+    <Color x:Key="LightAccentColor">#38A2C5</Color>
+    <Color x:Key="LightButtonHoverTextColor">#000000</Color>
     <Color x:Key="LightButtonDisabledForegroundColor">#CCCCCC</Color>
     <Color x:Key="LightButtonDisabledBorderColor">#EEEEEE</Color>
-    <Color x:Key="LightNavigationButtonBackgroundColor">#FBFBFB</Color>
-    <Color x:Key="LightNavigationButtonForegroundColor">#202124</Color>
-    <Color x:Key="LightSliderTrackColor">#CCCCCC</Color>
-    <Color x:Key="LightBackgroundColor">#F3F3F3</Color>
-    <Color x:Key="LightContentSectionBackgroundColor">#F0F0F0</Color>
-    <Color x:Key="LightElevatedBackgroundColor">#E0E0E0</Color>
+    <Color x:Key="LightNavigationButtonBackgroundColor">#EAEAEA</Color>
+    <Color x:Key="LightNavigationButtonForegroundColor">#000000</Color>
+    <Color x:Key="LightSliderTrackColor">#F5F5F5</Color>
+    <Color x:Key="LightBackgroundColor">#EAEAEA</Color>
+    <Color x:Key="LightContentSectionBackgroundColor">#EAEAEA</Color>
+    <Color x:Key="LightElevatedBackgroundColor">#EAEAEA</Color>
     <!-- Light Theme ScrollBar Colors -->
-    <Color x:Key="LightScrollBarThumbColor">#424242</Color>
-    <Color x:Key="LightScrollBarThumbHoverColor">#666666</Color>
-    <Color x:Key="LightScrollBarThumbPressedColor">#222222</Color>
+    <Color x:Key="LightScrollBarThumbColor">#A0A0A0</Color>
+    <Color x:Key="LightScrollBarThumbHoverColor">#B0B0B0</Color>
+    <Color x:Key="LightScrollBarThumbPressedColor">#808080</Color>
 
     <!-- Dynamic Theme Brushes -->
     <!-- Text Colors -->

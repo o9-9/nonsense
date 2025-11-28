@@ -27,7 +27,7 @@ namespace nonsense.Infrastructure.Features.Common.Services
             if (UseCompression && json.Length > 1024) // Compress if over 1KB
             {
                 var bytes = Encoding.UTF8.GetBytes(json);
-                using var output = new MemoryStream();
+                using var output = new o9Stream();
                 using (var gzip = new GZipStream(output, CompressionMode.Compress))
                 {
                     gzip.Write(bytes, 0, bytes.Length);
@@ -48,8 +48,8 @@ namespace nonsense.Infrastructure.Features.Common.Services
                 if (IsCompressed(value)) // Use 'value' parameter
                 {
                     var bytes = Convert.FromBase64String(value); // Use 'value' parameter
-                    using var input = new MemoryStream(bytes);
-                    using var output = new MemoryStream();
+                    using var input = new o9Stream(bytes);
+                    using var output = new o9Stream();
                     using (var gzip = new GZipStream(input, CompressionMode.Decompress))
                     {
                         gzip.CopyTo(output);
@@ -79,8 +79,8 @@ namespace nonsense.Infrastructure.Features.Common.Services
                 if (IsCompressed(serialized))
                 {
                     var bytes = Convert.FromBase64String(serialized);
-                    using var input = new MemoryStream(bytes);
-                    using var output = new MemoryStream();
+                    using var input = new o9Stream(bytes);
+                    using var output = new o9Stream();
                     using (var gzip = new GZipStream(input, CompressionMode.Decompress))
                     {
                         gzip.CopyTo(output);

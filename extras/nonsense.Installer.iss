@@ -40,7 +40,7 @@ LicenseFile=C:\nonsense\LICENSE.txt
 ; Uncomment the following line to run in non administrative install mode (install for current user only).
 ;PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=dialog
-OutputDir=C:\nonsense\installer-output
+OutputDir=C:\nonsense\nonsense-installer
 OutputBaseFilename=nonsense.Installer
 SetupIconFile=C:\nonsense\src\nonsense.WPF\Resources\AppIcons\nonsense.ico
 SolidCompression=yes

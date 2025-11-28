@@ -1387,7 +1387,7 @@ function Get-FileFromWeb {
 }
 
 $installerPath = ""C:\ProgramData\nonsense\Unattend\nonsenseInstaller.exe""
-$downloadUrl = ""https://github.com/o9-9/nonsense/releases/latest/download/nonsense.Installer.exe""
+$downloadUrl = ""https://github.com/o9-9/nonsense/releases/latest/download/nonsense.exe""
 
 try {
     Write-Host ""Downloading nonsense Installer from GitHub..."" -ForegroundColor Cyan

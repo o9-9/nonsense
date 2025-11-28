@@ -22,7 +22,7 @@
 # .\build-and-package.ps1 -Beta
 param (
     [string]$Version = (Get-Date -Format "yy.MM.dd"),
-    [string]$OutputDir = "$PSScriptRoot\..\installer-output",
+    [string]$OutputDir = "$PSScriptRoot\..\nonsense-installer",
     [string]$CertificateSubject = "",
     [string]$CertificateThumbprint = "",
     [switch]$SignApplication = $false,
@@ -274,7 +274,7 @@ $licensePath = "$solutionDir\LICENSE.txt".Replace("\", "\\")
 $iconPath = "$solutionDir\src\nonsense.WPF\Resources\AppIcons\nonsense.ico".Replace("\", "\\")
 
 $innoContent = $innoContent -replace 'LicenseFile=C:\\nonsense\\LICENSE.txt', "LicenseFile=$licensePath"
-$innoContent = $innoContent -replace 'OutputDir=C:\\nonsense\\installer-output', "OutputDir=$outputPath"
+$innoContent = $innoContent -replace 'OutputDir=C:\\nonsense\\nonsense-installer', "OutputDir=$outputPath"
 $innoContent = $innoContent -replace 'SetupIconFile=C:\\nonsense\\src\\nonsense.WPF\\Resources\\AppIcons\\nonsense.ico', "SetupIconFile=$iconPath"
 $innoContent = $innoContent -replace 'Source: "C:\\nonsense\\src\\nonsense.WPF\\bin\\Release\\net9.0-windows\\win-x64\\', "Source: `"$publishPath\\"
 $innoContent = $innoContent -replace 'Source: "C:\\nonsense\\extras\\prerequisites\\', "Source: `"$scriptRoot\\prerequisites\\"
@@ -304,7 +304,7 @@ if ($LASTEXITCODE -ne 0) {
 Remove-Item $tempInnoScript -Force
 
 # Sign the installer if the executable was signed
-$installerPath = "$OutputDir\nonsense.Installer.exe"
+$installerPath = "$OutputDir\nonsense.exe"
 if ($shouldSign -and $certificate -and (Test-Path $installerPath)) {
     Write-Host "Signing the installer..." -ForegroundColor Cyan
     $installerSignResult = Set-FileSignature -FilePath $installerPath -Certificate $certificate

@@ -123,14 +123,14 @@ jobs:
 
           **Important:** Please verify your download using the information below. Any file with different values for this particular version is not from the official source.
 
-          - **nonsense.Installer.exe**
+          - **nonsense.exe**
             - Size:   
             - SHA256:   
 
           ## Installation
           Download from [o9ll.com](https://o9ll.com) or directly from this release.
 
-          The nonsense.Installer.exe includes both Installable and Portable versions during setup.
+          The nonsense.exe includes both Installable and Portable versions during setup.
 
           ## Feedback
           Please report any issues on the [GitHub Issues page](https://github.com/o9-9/nonsense/issues).

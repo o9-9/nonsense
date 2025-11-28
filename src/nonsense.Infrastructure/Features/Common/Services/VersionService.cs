@@ -16,7 +16,7 @@ namespace nonsense.Infrastructure.Features.Common.Services
         private readonly ILogService _logService;
         private readonly HttpClient _httpClient;
         private readonly string _latestReleaseApiUrl = "https://api.github.com/repos/o9-9/nonsense/releases/latest";
-        private readonly string _latestReleaseDownloadUrl = "https://github.com/o9-9/nonsense/releases/latest/download/nonsense.Installer.exe";
+        private readonly string _latestReleaseDownloadUrl = "https://github.com/o9-9/nonsense/releases/latest/download/nonsense.exe";
         private readonly string _userAgent = "nonsense-Update-Checker";
 
         public VersionService(ILogService logService)
@@ -112,7 +112,7 @@ namespace nonsense.Infrastructure.Features.Common.Services
                 _logService.Log(LogLevel.Info, "Downloading update...");
 
                 // Create a temporary file to download the installer
-                string tempPath = Path.Combine(Path.GetTempPath(), "nonsense.Installer.exe");
+                string tempPath = Path.Combine(Path.GetTempPath(), "nonsense.exe");
 
                 // Download the installer
                 byte[] installerBytes = await _httpClient.GetByteArrayAsync(_latestReleaseDownloadUrl);
