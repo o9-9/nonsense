@@ -170,18 +170,18 @@
                             <TextBlock Text="{Binding Description}" FontSize="12" Foreground="{DynamicResource SecondaryTextColor}" TextWrapping="Wrap" Margin="0,2,0,0" VerticalAlignment="Center"/>
 
                             <!-- Warning Badge -->
-                            <Border Background="#FFFACD" CornerRadius="3" Padding="6,3" Margin="0,5,0,0" HorizontalAlignment="Left"
+                            <Border Background="#FFF4E5" CornerRadius="3" Padding="6,3" Margin="0,5,0,0" HorizontalAlignment="Left"
                                     Visibility="{Binding WarningText, Converter={StaticResource InverseNullToVisibilityConverter}}"
-                                    BorderBrush="#FFA500" BorderThickness="1">
+                                    BorderBrush="#FFA726" BorderThickness="1">
                                 <TextBlock Text="{Binding WarningText}"
                                           FontSize="11"
                                           FontWeight="SemiBold"
-                                          Foreground="#8B4513"
+                                          Foreground="#E65100"
                                           TextWrapping="Wrap"/>
                             </Border>
 
                             <!-- Registry Not Set Indicator -->
-                            <Border Background="#D32F2F" CornerRadius="3" Padding="4,2" Margin="0,4,0,0" HorizontalAlignment="Left"
+                            <Border Background="#FF4757" CornerRadius="3" Padding="4,2" Margin="0,4,0,0" HorizontalAlignment="Left"
                                     Visibility="{Binding ShowRegistryStateIndicator, Converter={StaticResource BooleanToVisibilityConverter}}">
                                 <TextBlock Text="⚠" FontSize="14" Foreground="White" VerticalAlignment="Center"/>
                             </Border>
@@ -482,7 +482,7 @@
                     <!-- Loading Overlay -->
                     <Grid Grid.ColumnSpan="2"
                           Visibility="{Binding IsApplying, Converter={StaticResource BooleanToVisibilityConverter}}"
-                          Background="#60000000">
+                          Background="#60050A1B">
                         <iconPacks:PackIconLucide Kind="LoaderCircle"
                                                 Width="32"
                                                 Height="32"
@@ -510,7 +510,7 @@
                     <Border Grid.ColumnSpan="2"
                             Panel.ZIndex="100"
                             Visibility="{Binding IsLocked, Converter={StaticResource BooleanToVisibilityConverter}}"
-                            Background="#80000000"
+                            Background="#80050A1B"
                             CornerRadius="4"
                             Cursor="Hand">
                         <Border.InputBindings>
@@ -520,11 +520,11 @@
                             <iconPacks:PackIconMaterial Kind="LockOutline"
                                                          Width="24"
                                                          Height="24"
-                                                         Foreground="#FFA500"
+                                                         Foreground="#FFA726"
                                                          HorizontalAlignment="Center"/>
                             <TextBlock Text="Click to unlock"
                                        FontSize="12"
-                                       Foreground="#CCCCCC"
+                                       Foreground="{DynamicResource SecondaryTextColor}"
                                        HorizontalAlignment="Center"/>
                         </StackPanel>
                     </Border>
@@ -678,10 +678,10 @@
                             <Setter Property="Foreground" Value="{DynamicResource PrimaryTextColor}"/>
                             <Style.Triggers>
                                 <DataTrigger Binding="{Binding IsLocked}" Value="True">
-                                    <Setter Property="Foreground" Value="#FFA500"/>
+                                    <Setter Property="Foreground" Value="#FFA726"/>
                                 </DataTrigger>
                                 <DataTrigger Binding="{Binding IsComplete}" Value="True">
-                                    <Setter Property="Foreground" Value="#4CAF50"/>
+                                    <Setter Property="Foreground" Value="#10D582"/>
                                 </DataTrigger>
                             </Style.Triggers>
                         </Style>
@@ -693,11 +693,11 @@
 
     <!-- Locked Step Overlay Template -->
     <DataTemplate x:Key="LockedStepOverlayTemplate">
-        <Border Background="#CC1A1A1A"
+        <Border Background="#CC0A0E27"
                 CornerRadius="5"
                 Panel.ZIndex="999">
             <Border Background="{DynamicResource ContentSectionBorderBrush}"
-                    BorderBrush="#FFA500"
+                    BorderBrush="#FFA726"
                     BorderThickness="2"
                     CornerRadius="8"
                     Padding="30"
@@ -708,7 +708,7 @@
                     <iconPacks:PackIconMaterial Kind="LockOutline"
                                               Width="48"
                                               Height="48"
-                                              Foreground="#FFA500"
+                                              Foreground="#FFA726"
                                               HorizontalAlignment="Center"
                                               Margin="0,0,0,15"/>
 
@@ -889,7 +889,7 @@
                     <iconPacks:PackIconMaterial Kind="CheckCircle"
                                               Width="24"
                                               Height="24"
-                                              Foreground="#4CAF50"
+                                              Foreground="#10D582"
                                               VerticalAlignment="Center"
                                               HorizontalAlignment="Center"
                                               Visibility="{Binding IsComplete, Converter={StaticResource BooleanToVisibilityConverter}}"/>
@@ -897,7 +897,7 @@
                     <iconPacks:PackIconMaterial Kind="CloseCircle"
                                               Width="24"
                                               Height="24"
-                                              Foreground="#F44336"
+                                              Foreground="#FF4757"
                                               VerticalAlignment="Center"
                                               HorizontalAlignment="Center"
                                               Visibility="{Binding HasFailed, Converter={StaticResource BooleanToVisibilityConverter}}"/>

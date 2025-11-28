@@ -119,7 +119,7 @@ namespace nonsense.WPF.Features.Common.ViewModels
 
         public void Cleanup()
         {
-            // Unsubscribe from events to prevent o9 leaks
+            // Unsubscribe from events to prevent memory leaks
             _progressService.ProgressUpdated -= ProgressService_ProgressUpdated;
         }
     }

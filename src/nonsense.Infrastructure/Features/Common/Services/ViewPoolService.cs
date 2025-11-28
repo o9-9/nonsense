@@ -83,7 +83,7 @@ namespace nonsense.Infrastructure.Features.Common.Services
                 element.DataContext = null;
             }
 
-            // Clear bindings to prevent o9 leaks
+            // Clear bindings to prevent memory leaks
             if (view is Control control)
             {
                 System.Windows.Data.BindingOperations.ClearAllBindings(control);

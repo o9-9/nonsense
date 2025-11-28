@@ -4,7 +4,7 @@
 
 **nonsense** features most of the same enhancements as [UnattendedWinstall](https://github.com/o9-9/UnattendedWinstall) without needing to do a clean install of Windows.
 
-<img width="1920" height="1080" alt="nonsense-UI" src="https://github.com/user-attachments/assets/6adedef9-6587-4f29-9bb2-d907965b7a03" />
+<img width="2560" height="1440" alt="nonsense-UI" src="https://github.com/user-attachments/assets/cd8526b8-b2cb-4a54-8787-2ef5106a2c17" />
 
 
 ## Requirements 💻

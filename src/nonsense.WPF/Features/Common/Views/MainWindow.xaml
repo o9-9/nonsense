@@ -115,7 +115,7 @@
                                                 <Run Text="nonsense "/>
                                                 <Run FontSize="12"
                                                      FontStyle="Italic"
-                                                     Foreground="Gray"
+                                                     Foreground="{DynamicResource TertiaryTextColor}"
                                                      Text="by o9"/>
                                         </TextBlock>
                                 </DockPanel>
@@ -200,7 +200,7 @@
                                             <iconPacks:PackIconMaterial Kind="Heart"
                                                                      Width="16"
                                                                      Height="16"
-                                                                     Foreground="Red"/>
+                                                                     Foreground="#FF4757"/>
                                         </Button>
 
                                         <!-- Use commands with direct event handlers as fallback -->
@@ -353,16 +353,16 @@
                             </Grid>
                     </Grid>
                     
-                    <!-- Dialog/Flyout Overlay - semi-transparent black overlay when dialogs or flyouts are shown -->
+                    <!-- Dialog/Flyout Overlay - semi-transparent overlay when dialogs or flyouts are shown -->
                     <Grid x:Name="DialogOverlay"
-                          Background="#80000000"
+                          Background="#80050A1B"
                           Visibility="{Binding IsDialogOverlayVisible, Converter={StaticResource BooleanToVisibilityConverter}}"
                           Panel.ZIndex="998"
                           IsHitTestVisible="False"/>
 
                     <!-- Config Import Progress Overlay (DEPRECATED - kept for backwards compatibility but hidden) -->
                     <Border Visibility="Collapsed"
-                            Background="#CC000000"
+                            Background="#CC050A1B"
                             Panel.ZIndex="999">
                         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
                             <TextBlock Text="Loading..."

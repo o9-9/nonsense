@@ -7,9 +7,9 @@ namespace nonsense.WPF.Converters;
 
 public class InstalledStatusToColorConverter : IValueConverter
 {
-    private static readonly SolidColorBrush GreenBrush = new SolidColorBrush(Color.FromRgb(0, 255, 60));
-    private static readonly SolidColorBrush RedBrush = new SolidColorBrush(Color.FromRgb(255, 40, 0));
-    private static readonly SolidColorBrush GrayBrush = new SolidColorBrush(Colors.Gray);
+    private static readonly SolidColorBrush GreenBrush = new SolidColorBrush(Color.FromRgb(16, 213, 130));
+    private static readonly SolidColorBrush RedBrush = new SolidColorBrush(Color.FromRgb(255, 71, 87));
+    private static readonly SolidColorBrush GrayBrush = new SolidColorBrush(Color.FromRgb(139, 145, 151));
 
     static InstalledStatusToColorConverter()
     {

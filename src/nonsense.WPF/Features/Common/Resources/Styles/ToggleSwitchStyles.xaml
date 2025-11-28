@@ -44,7 +44,7 @@
                                 Width="40" Height="20"
                                 CornerRadius="10"
                                 BorderThickness="0"
-                                Background="#FFE53935"
+                                Background="#FF4757"
                                 VerticalAlignment="Center"
                                 RenderTransformOrigin="0.5,0.5">
                             <Border.RenderTransform>
@@ -71,7 +71,7 @@
                                 <!-- X icon for unchecked state -->
                                 <Path x:Name="XIcon"
                                       Data="M 4,4 L 12,12 M 12,4 L 4,12"
-                                      Stroke="#FFE53935"
+                                      Stroke="#FF4757"
                                       StrokeThickness="1.5"
                                       StrokeStartLineCap="Round"
                                       StrokeEndLineCap="Round"
@@ -80,7 +80,7 @@
                                 <!-- Checkmark icon for checked state -->
                                 <Path x:Name="CheckIcon"
                                       Data="M 4,8 L 7,11 L 12,5"
-                                      Stroke="#FF4CAF50"
+                                      Stroke="#10D582"
                                       StrokeThickness="1.5"
                                       StrokeStartLineCap="Round"
                                       StrokeEndLineCap="Round"
@@ -98,7 +98,7 @@
                         <!-- Move knob to right position when checked -->
                         <Trigger Property="IsChecked" Value="True">
                             <Setter TargetName="KnobContainer" Property="Margin" Value="22,0,0,0"/>
-                            <Setter TargetName="SwitchTrack" Property="Background" Value="#FF4CAF50"/> <!-- Green when checked -->
+                            <Setter TargetName="SwitchTrack" Property="Background" Value="#10D582"/> <!-- Green when checked -->
                             <Setter TargetName="CheckIcon" Property="Visibility" Value="Visible"/>
                             <Setter TargetName="XIcon" Property="Visibility" Value="Collapsed"/>
                             <Setter TargetName="StateLabel" Property="Text" Value="On"/>

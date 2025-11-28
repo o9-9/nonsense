@@ -7,9 +7,9 @@ namespace nonsense.WPF.Converters
 {
     public class BooleanToReinstallableColorConverter : IValueConverter
     {
-        private static readonly SolidColorBrush BlueBrush = new SolidColorBrush(Color.FromRgb(0, 120, 215));
-        private static readonly SolidColorBrush RedBrush = new SolidColorBrush(Color.FromRgb(255, 40, 0));
-        private static readonly SolidColorBrush GrayBrush = new SolidColorBrush(Colors.Gray);
+        private static readonly SolidColorBrush BlueBrush = new SolidColorBrush(Color.FromRgb(0, 217, 255));
+        private static readonly SolidColorBrush RedBrush = new SolidColorBrush(Color.FromRgb(255, 71, 87));
+        private static readonly SolidColorBrush GrayBrush = new SolidColorBrush(Color.FromRgb(139, 145, 151));
 
         static BooleanToReinstallableColorConverter()
         {

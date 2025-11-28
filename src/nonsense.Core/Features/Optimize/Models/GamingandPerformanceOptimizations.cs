@@ -118,10 +118,10 @@ public static class GamingandPerformanceOptimizations
                 },
                 new SettingDefinition
                 {
-                    Id = "gaming-o9-compression",
-                    Name = "o9 Compression",
-                    Description = "Compress unused o9 pages to reduce RAM usage. On systems with plenty of RAM (16GB+), disabling can slightly reduce CPU overhead and improve performance",
-                    Icon = "o9ArrowDown",
+                    Id = "gaming-memory-compression",
+                    Name = "Memory Compression",
+                    Description = "Compress unused memory pages to reduce RAM usage. On systems with plenty of RAM (16GB+), disabling can slightly reduce CPU overhead and improve performance",
+                    Icon = "MemoryArrowDown",
                     InputType = InputType.Toggle,
                     CustomProperties = new Dictionary<string, object>
                     {
@@ -131,7 +131,7 @@ public static class GamingandPerformanceOptimizations
                     {
                         new RegistrySetting
                         {
-                            KeyPath = @"HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\o9 Management",
+                            KeyPath = @"HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management",
                             ValueName = "DisablePageCombining",
                             RecommendedValue = 1,
                             EnabledValue = 0,
@@ -375,7 +375,7 @@ public static class GamingandPerformanceOptimizations
                     Name = "GPU Priority for Gaming",
                     Description = "Give games higher GPU scheduling priority to improve graphics performance and frame rates",
                     GroupName = "Graphics",
-                    Icon = "o9",
+                    Icon = "Memory",
                     InputType = InputType.Toggle,
                     RegistrySettings = new List<RegistrySetting>
                     {
@@ -395,7 +395,7 @@ public static class GamingandPerformanceOptimizations
                 {
                     Id = "gaming-gpu-scheduling",
                     Name = "Hardware-Accelerated GPU Scheduling",
-                    Description = "Let your GPU manage its own o9 and scheduling for reduced latency and improved performance",
+                    Description = "Let your GPU manage its own memory and scheduling for reduced latency and improved performance",
                     GroupName = "Graphics",
                     Icon = "ExpansionCard",
                     InputType = InputType.Toggle,
@@ -726,7 +726,7 @@ public static class GamingandPerformanceOptimizations
                 {
                     Id = "gaming-performance-prefetch",
                     Name = "Prefetch Feature",
-                    Description = "Preload frequently used applications and boot files into o9 to speed up launches. Generally recommended for HDDs not SSDs",
+                    Description = "Preload frequently used applications and boot files into memory to speed up launches. Generally recommended for HDDs not SSDs",
                     GroupName = "System Services",
                     Icon = "Download",
                     InputType = InputType.Toggle,
@@ -744,7 +744,7 @@ public static class GamingandPerformanceOptimizations
                     {
                         new RegistrySetting
                         {
-                            KeyPath = @"HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\o9 Management\PrefetchParameters",
+                            KeyPath = @"HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters",
                             ValueName = "EnablePrefetcher",
                             RecommendedValue = 0,
                             EnabledValue = 3, // When toggle is ON, prefetch is enabled (3 = both application and boot prefetching)

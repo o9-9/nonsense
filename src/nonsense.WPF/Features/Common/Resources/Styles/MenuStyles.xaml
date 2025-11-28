@@ -4,7 +4,7 @@
     <!-- Context Menu Style -->
     <Style x:Key="nonsenseContextMenuStyle" TargetType="ContextMenu">
         <Setter Property="Background" Value="{DynamicResource WindowBackground}" />
-        <Setter Property="BorderBrush" Value="#505050" />
+        <Setter Property="BorderBrush" Value="{DynamicResource ContentSectionBorderBrush}" />
         <Setter Property="BorderThickness" Value="1" />
         <Setter Property="Padding" Value="3" />
         <Setter Property="Effect" Value="{StaticResource LightShadowEffect}" />
@@ -69,13 +69,13 @@
     
     <!-- Separator Style -->
     <Style x:Key="nonsenseSeparatorStyle" TargetType="Separator">
-        <Setter Property="Background" Value="#505050" />
+        <Setter Property="Background" Value="{DynamicResource ContentSectionBorderBrush}" />
         <Setter Property="Height" Value="1" />
         <Setter Property="Margin" Value="-20,0,10,0" />
     </Style>
     <!-- Version Info Text Style -->
     <Style x:Key="VersionInfoTextStyle" TargetType="TextBlock">
-        <Setter Property="Foreground" Value="#505050" />
+        <Setter Property="Foreground" Value="{DynamicResource TertiaryTextColor}" />
         <Setter Property="VerticalAlignment" Value="Center" />
         <Setter Property="FontSize" Value="14" />
     </Style>

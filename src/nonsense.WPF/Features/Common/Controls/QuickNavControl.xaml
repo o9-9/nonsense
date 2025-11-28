@@ -19,7 +19,7 @@
                     <StackPanel Orientation="Horizontal">
                         <Border Width="1"
                                 Height="25"
-                                Background="#505050"
+                                Background="{DynamicResource ContentSectionBorderBrush}"
                                 VerticalAlignment="Center"
                                 Margin="0,0,0,0"
                                 Visibility="{Binding RelativeSource={RelativeSource PreviousData}, Converter={StaticResource InverseNullToVisibilityConverter}}"/>
@@ -52,12 +52,12 @@
                                                 <Trigger Property="IsMouseOver" Value="True">
                                                     <Setter TargetName="border" Property="Background" Value="{DynamicResource ButtonBorderBrush}" />
                                                     <Setter TargetName="border" Property="BorderBrush" Value="{DynamicResource ButtonBorderBrush}" />
-                                                    <Setter Property="Foreground" Value="Black" />
+                                                    <Setter Property="Foreground" Value="{DynamicResource ButtonHoverTextColor}" />
                                                 </Trigger>
                                                 <DataTrigger Binding="{Binding IsSelected}" Value="True">
                                                     <Setter TargetName="border" Property="Background" Value="{DynamicResource ButtonBorderBrush}" />
                                                     <Setter TargetName="border" Property="BorderBrush" Value="{DynamicResource ButtonBorderBrush}" />
-                                                    <Setter Property="Foreground" Value="Black" />
+                                                    <Setter Property="Foreground" Value="{DynamicResource ButtonHoverTextColor}" />
                                                 </DataTrigger>
                                             </ControlTemplate.Triggers>
                                         </ControlTemplate>

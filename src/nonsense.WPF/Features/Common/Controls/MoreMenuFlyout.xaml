@@ -56,7 +56,7 @@
 
     <!-- Flyout Menu Content -->
     <Border Background="{DynamicResource WindowBackground}"
-            BorderBrush="#505050"
+            BorderBrush="{DynamicResource ContentSectionBorderBrush}"
             BorderThickness="1"
             CornerRadius="4"
             Padding="8"

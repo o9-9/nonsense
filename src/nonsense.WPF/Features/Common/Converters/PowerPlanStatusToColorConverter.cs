@@ -7,8 +7,8 @@ namespace nonsense.WPF.Features.Common.Converters
 {
     public class PowerPlanStatusToColorConverter : IValueConverter
     {
-        private static readonly SolidColorBrush GreenBrush = new SolidColorBrush(Color.FromRgb(0, 255, 60));
-        private static readonly SolidColorBrush RedBrush = new SolidColorBrush(Color.FromRgb(255, 40, 0));
+        private static readonly SolidColorBrush GreenBrush = new SolidColorBrush(Color.FromRgb(16, 213, 130));
+        private static readonly SolidColorBrush RedBrush = new SolidColorBrush(Color.FromRgb(255, 71, 87));
 
         static PowerPlanStatusToColorConverter()
         {

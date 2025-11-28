@@ -13,11 +13,11 @@ namespace nonsense.WPF.Features.Common.Converters
             {
                 // Return green if scripts are active, gray if not
                 return isActive
-                    ? new SolidColorBrush(Color.FromRgb(0, 200, 83)) // Green for active
-                    : new SolidColorBrush(Color.FromRgb(150, 150, 150)); // Gray for inactive
+                    ? new SolidColorBrush(Color.FromRgb(16, 213, 130)) // Green for active
+                    : new SolidColorBrush(Color.FromRgb(139, 145, 151)); // Gray for inactive
             }
 
-            return new SolidColorBrush(Colors.Gray);
+            return new SolidColorBrush(Color.FromRgb(139, 145, 151));
         }
 
         public object ConvertBack(

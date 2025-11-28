@@ -92,7 +92,7 @@
 
                         <!-- Loading overlay -->
                         <Border x:Name="loadingOverlay"
-                                Background="#80000000"
+                                Background="#80050A1B"
                                 CornerRadius="10"
                                 Visibility="Collapsed">
                             <Ellipse Width="24" Height="24"
@@ -154,10 +154,10 @@
                     </Border>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter TargetName="border" Property="Background" Value="#404040" />
+                            <Setter TargetName="border" Property="Background" Value="{DynamicResource ContentSectionBorderBrush}" />
                         </Trigger>
                         <Trigger Property="IsPressed" Value="True">
-                            <Setter TargetName="border" Property="Background" Value="#404040" />
+                            <Setter TargetName="border" Property="Background" Value="{DynamicResource ContentSectionBorderBrush}" />
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -419,10 +419,10 @@
                     </Border>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Background" Value="#20FFFFFF" />
+                            <Setter Property="Background" Value="{DynamicResource ContentSectionBorderBrush}" />
                         </Trigger>
                         <Trigger Property="IsPressed" Value="True">
-                            <Setter Property="Background" Value="#30FFFFFF" />
+                            <Setter Property="Background" Value="{DynamicResource ButtonBorderBrush}" />
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -480,11 +480,11 @@
                     </Border>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter TargetName="border" Property="Background" Value="Red" />
-                            <Setter TargetName="border" Property="BorderBrush" Value="Red" />
+                            <Setter TargetName="border" Property="Background" Value="#FF4757" />
+                            <Setter TargetName="border" Property="BorderBrush" Value="#FF4757" />
                         </Trigger>
                         <Trigger Property="IsPressed" Value="True">
-                            <Setter TargetName="border" Property="Background" Value="DarkRed" />
+                            <Setter TargetName="border" Property="Background" Value="#D63447" />
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>

@@ -270,7 +270,7 @@ namespace nonsense.WPF.Features.AdvancedTools.ViewModels
 
             ExtractSystemDriversCard = new WizardActionCard
             {
-                Icon = "o9ArrowDown",
+                Icon = "MemoryArrowDown",
                 Title = "Extract and add drivers from current OS (Recommended)",
                 Description = "Extract the drivers from the current operating system and add it to the installation media",
                 ButtonText = "Extract & Add",
